@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class CourseCard extends StatelessWidget {
   const CourseCard({
@@ -24,6 +25,7 @@ class CourseCard extends StatelessWidget {
           ),
           Text(
             subtitle,
+            textAlign: TextAlign.center,
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700),
           ),
         ],
